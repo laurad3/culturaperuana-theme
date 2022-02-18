@@ -1,0 +1,28 @@
+.contact-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    opacity: 0;
+    transition: all .2s ease-in;
+    font-size: 14px;
+
+    &.is-valid {
+        opacity: 1;
+    }
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea {
+    border: 1px solid black;
+}

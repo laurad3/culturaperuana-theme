@@ -1,0 +1,15 @@
+.events-list {
+    img {
+        width: 100%;
+    }
+}
+
+.event-list {
+    .event {
+        background-color: $beige;
+
+        &:nth-child(even) {
+            background-color: $primary
+        }
+    }
+}

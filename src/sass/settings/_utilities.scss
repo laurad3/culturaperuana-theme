@@ -1,0 +1,17 @@
+// BOOTSTRAP 5 (UTILITIES)
+// https://getbootstrap.com/docs/5.0/utilities/api/
+// ========================================
+
+// Responsive cursor utility example
+
+// $utilities: map-merge(
+//   $utilities,
+//   (
+//     "cursor": (
+//       property: cursor,
+//       class: cursor,
+//       responsive: true,
+//       values: auto pointer grab,
+//     )
+//   )
+// );

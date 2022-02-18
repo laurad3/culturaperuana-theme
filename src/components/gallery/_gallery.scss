@@ -1,0 +1,15 @@
+.siema {
+    .blocks-gallery-grid .blocks-gallery-image,
+    .blocks-gallery-grid .blocks-gallery-item,
+    .wp-block-gallery .blocks-gallery-image,
+    .wp-block-gallery .blocks-gallery-item {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    &.wp-block-gallery,
+    .blocks-gallery-grid {
+        display: block;
+    }
+}

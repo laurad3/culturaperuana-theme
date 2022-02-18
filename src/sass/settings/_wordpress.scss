@@ -1,0 +1,9 @@
+// WORDPRESS CLASS OVERRIDES
+// ========================================
+
+// Break .alignfull content out of the container
+.alignfull {
+	width: 100vw;
+	left: calc(-1 * (100vw - 100%) / 2);
+	position: relative;
+}
